@@ -4,7 +4,7 @@ function Classificador(){
 
     let resultadoElement = document.getElementById('resultado');
     
-    if (XP >= 1001) {
+    if (XP >= 10001) {
         resultadoElement.textContent=`Nível do ${nomeHeroi} é radiante`;
     }else  if (XP <= 10000 && XP >= 9001) {
         resultadoElement.textContent=`Nível do ${nomeHeroi} é imortal`;
@@ -16,7 +16,7 @@ function Classificador(){
         resultadoElement.textContent=`Nível do ${nomeHeroi} é Ouro`;
     }else if (XP <= 5000 && XP >= 2001) {
         resultadoElement.textContent=`Nível do ${nomeHeroi} é Prata`;
-    } else if (XP <= 2000 || XP >= 1001) {
+    }else if (XP <= 2000 && XP >= 1001) {
         resultadoElement.textContent=`Nível do ${nomeHeroi} é Bronze`;
     }else {
         resultadoElement.textContent=`Nível do ${nomeHeroi} é Ferro`
