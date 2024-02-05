@@ -21,5 +21,11 @@ function Classificador(){
     }else {
         resultadoElement.textContent=`Nível do ${nomeHeroi} é Ferro`
     }
+
+}
+function limparResultado() {
+    document.getElementById('nome').value;
+    document.getElementById('XP').value;
+    document.getElementById('resultado').textContent='';
 }
 
