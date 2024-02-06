@@ -3,7 +3,11 @@ function Classificador(){
     let XP = parseInt(document.getElementById('XP').value);
 
     let resultadoElement = document.getElementById('resultado');
-    
+
+    if (nomeHeroi === ''|| XP <=0 ){
+        alert("Preencher todos os campos corretamente para verificação");
+        return;
+    }
     if (XP >= 10001) {
         resultadoElement.textContent=`Nível do ${nomeHeroi} é radiante`;
     }else  if (XP <= 10000 && XP >= 9001) {
@@ -23,9 +27,9 @@ function Classificador(){
     }
 
 }
-function limparResultado() {
-    document.getElementById('nome').value;
-    document.getElementById('XP').value;
-    document.getElementById('resultado').textContent='';
-}
 
+function limparResultado() {
+    document.getElementById('nome').value = ''; // Limpa o valor do campo nome
+    document.getElementById('XP').value = ''; // Limpa o valor do campo XP
+    document.getElementById('resultado').innerHTML = ''; // Limpa o conteúdo dentro do elemento resultado
+}

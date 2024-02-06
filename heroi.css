@@ -1,0 +1,42 @@
+.classificador {
+    background-color: blue;
+    width: 50%;
+    bottom: 0;
+    position: relative
+    
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    font-family:'Protest Guerrilla', sans-serif;
+    font-size: 20pt;
+    color: yellow;
+}
+.botoes {
+    /* display: flex;
+    justify-content: center; */
+    column-gap: 2px;
+    padding: 15px 15px;
+    align-self: center;
+    margin-left: 15%;
+}
+.nomeInput{
+    border-radius: 2px;
+}
+
+.numberInput{
+    border-radius: 2px;
+}
+.buttonVerify{
+    border-radius: 2px;
+}
+.buttonLimpar{
+    border-radius: 2px;   
+}
+.resultado{
+    display: block;
+    margin:auto;
+    text-align: center;
+    color: #fff;
+}

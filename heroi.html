@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XP heróis</title>
-  
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="heroi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Classificador de nível de Herói</h1>
-    <input type="text" placeholder="Nome" id="nome">
-    <input type="number" id="XP" placeholder="XP">
-    
-    <button onclick="Classificador()">Verificar nível</button>
-    <button onclick="limparResultado()">Limpar</button>
-    <p id="resultado"></p>
+    <div class="classificador">
+        <h1 class="titulo">Classificador de nível de Herói</h1>
+        <div class="botoes">
+            <input type="text" placeholder="Nome" class="nomeInput" id="nome">
+            <input type="number" placeholder="XP" class="numberInput" id="XP" >
+            
+            <button class="buttonVerify" onclick="Classificador()">Verificar nível</button>
+            <button class="buttonLimpar" onclick="limparResultado()">Limpar</button>
+            <p class="resultado" id="resultado"></p>
+        </div>
+    </div>
 
     
     <script src="./heroi.js"></script>
