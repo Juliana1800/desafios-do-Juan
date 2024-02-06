@@ -29,10 +29,19 @@
     border-radius: 2px;
 }
 .buttonVerify{
-    border-radius: 2px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, sans-serif;
+}
+.buttonVerify:hover{
+    background-color: #d3d3d3;
+
 }
 .buttonLimpar{
-    border-radius: 2px;   
+    border-radius: 5px;  
+    font-family: 'Courier New', Courier, sans-serif; 
+}
+.buttonLimpar:hover{
+    background-color: #d3d3d3;
 }
 .resultado{
     display: block;
