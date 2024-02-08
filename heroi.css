@@ -2,8 +2,8 @@
     background-color: blue;
     width: 50%;
     bottom: 0;
-    position: relative
-    
+    position: relative;
+    margin-left: 25%;
 }
 .titulo{
     display: flex;

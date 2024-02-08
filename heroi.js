@@ -4,7 +4,7 @@ function Classificador(){
 
     let resultadoElement = document.getElementById('resultado');
 
-    if (nomeHeroi === ''|| XP <=0 ){
+    if (nomeHeroi === ''|| XP <= 0 ){
         alert("Preencher todos os campos corretamente para verificação");
         return;
     }
@@ -13,7 +13,7 @@ function Classificador(){
     }else  if (XP <= 10000 && XP >= 9001) {
         resultadoElement.textContent=`Nível do ${nomeHeroi} é imortal`;
     }else if (XP <= 9000 && XP >= 8001) {
-        resultadoElement.textContent=`Nível do ${nomeHeroi} é Ascendete`;
+        resultadoElement.textContent=`Nível do ${nomeHeroi} é Ascendente`;
     }else if (XP <= 8000 && XP >= 7001) {
         resultadoElement.textContent=`Nível do ${nomeHeroi} é Platina`;
     }else if (XP <= 7000 && XP >= 5001) {
