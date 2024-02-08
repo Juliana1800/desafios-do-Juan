@@ -22,7 +22,7 @@ Completar desafio enviado pelo Juan me ajudando a estudar programação
 ## Saída
 
 * Ao final deve exibir uma mensagem:
-"O herói e nome **{nome}** está no nívecel de **{nível}**
+"O herói e nome **{nome}** está no nível de **{nível}**
 -----------------------------------------------------------------------------------------------
 
 #2 Calculadora de partidas Rankeadas

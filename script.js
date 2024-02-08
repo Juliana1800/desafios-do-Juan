@@ -33,3 +33,19 @@ function limparResultado() {
     document.getElementById('XP').value = ''; // Limpa o valor do campo XP
     document.getElementById('resultado').innerHTML = ''; // Limpa o conteúdo dentro do elemento resultado
 }
+
+function calcular(){
+    let=
+        vitorias = document.getElementById("vitorias").value;
+        derrotas = document.getElementById("derrotas").value;
+        resultado= vitorias - derrotas;
+        console.log(resultado);
+        return;
+    } 
+
+    function resultado(){
+        let saldoVitoria = resultado.innerHTML;
+        if (saldoVitoria <= 10 ) {
+            resultadoElement = 
+        }
+    }
